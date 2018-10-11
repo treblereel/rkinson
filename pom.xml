@@ -14,7 +14,7 @@
     <properties>
         <!-- Convenience property to set the GWT version -->
         <gwt.version>2.8.2</gwt.version>
-        <three4g.version>0.97-beta1</three4g.version>
+        <three4g.version>0.96-beta3</three4g.version>
 
         <!-- GWT 2.8 requires 1.8 -->
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -45,13 +45,6 @@
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
             <artifactId>three4g</artifactId>
-            <version>${three4g.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.treblereel.gwt</groupId>
-            <artifactId>three4g-extensions</artifactId>
             <version>${three4g.version}</version>
             <scope>provided</scope>
         </dependency>
