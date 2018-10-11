@@ -52,7 +52,7 @@
         <dependency>
             <groupId>org.treblereel.gwt</groupId>
             <artifactId>three4g-extensions</artifactId>
-            <version>0.96-beta3</version>
+            <version>${three4g.version}</version>
             <scope>provided</scope>
         </dependency>
 
